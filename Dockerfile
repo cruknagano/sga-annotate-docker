@@ -47,6 +47,7 @@ RUN apt-get update && \
         zlib1g-dev 
  
 RUN apt-get install -y libbz2-1.0 libbz2-dev libbz2-ocaml libbz2-ocaml-dev
+RUN apt-get install -y liblzma-dev
         
 
 # build remaining dependencies:
