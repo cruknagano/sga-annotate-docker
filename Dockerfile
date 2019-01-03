@@ -125,4 +125,4 @@ COPY snv_annotate.sh /usr/local/bin
 COPY annotate.sh /usr/local/bin
 COPY annotate_from_readcounts.py /usr/local/bin
 
-ENTRYPOINT ["/usr/local/bin/annotate.sh"]
+#ENTRYPOINT ["/usr/local/bin/annotate.sh"]
