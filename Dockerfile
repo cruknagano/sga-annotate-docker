@@ -45,6 +45,9 @@ RUN apt-get update && \
         tabix \
         wget \
         zlib1g-dev 
+ 
+RUN apt-get install -y libbz2-1.0 libbz2-dev libbz2-ocaml libbz2-ocaml-dev
+        
 
 # build remaining dependencies:
 # bamtools - for SGA
